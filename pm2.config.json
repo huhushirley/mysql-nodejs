@@ -1,0 +1,23 @@
+{
+  "apps" : [{
+    "name": "demo",
+    "script": "dist/main.js",
+    "watch": false,
+    "env": {
+      "NODE_ENV": "development",
+      "LANG": "zh_CN.UTF-8"
+    },
+    "env_production" : {
+       "NODE_ENV": "production",
+       "LANG": "zh_CN.UTF-8"
+    },
+    "env_test": {
+      "NODE_ENV": "test",
+      "lANG": "zh_CN.UTF-8"
+    },
+    "env_deploy" : {
+       "NODE_ENV": "deploy"
+    },
+    "log_file": "./demo.log"
+  }]
+}
